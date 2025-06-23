@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://your-repo-url.git'
+                git url 'https://github.com/Jamal1463/aws-eks-jenkins-tf.git'
             }
         }
 
